@@ -1,0 +1,73 @@
+/* Estilos para Tablets*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /*SERVIÇOS*/
+  .tittle2 h1 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .item {
+    flex: 0 373px;
+    margin: 0 auto;
+  }
+}
+
+/* Estilos para Smartphones*/
+@media only screen and (max-width: 767px) {
+  /*HEADER*/
+  .menu-logo {
+    margin: 0 auto;
+  }
+  .nav-lista {
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .nav-lista li {
+    background: #03045e;
+    padding: 4px 8px;
+    border-radius: 10px;
+  }
+  .nav-lista a:hover {
+    color: white;
+  }
+  /* SERVIÇOS */
+  .servicos {
+    justify-content: center;
+  }
+  .item {
+    flex: 0 1 373px;
+    padding: 16px;
+  }
+  .item img {
+    width: 373px;
+    height: 400px;
+  }
+  /* CONTATO */
+  .contato {
+    justify-content: center;
+    order: 2;
+  }
+  .form-contato {
+    order: 2;
+    padding: 32px 0 0 0px;
+  }
+  .form-contato button {
+    margin-bottom: 64px;
+  }
+  .atendimento {
+    order: 1;
+    padding: 32px 16px;
+  }
+  /*FOOTER*/
+  .footer-mapa {
+    justify-content: center;
+  }
+  .mapa {
+    order: 2;
+  }
+  .redes-footer {
+    order: 1;
+    margin: 0 auto;
+    margin-bottom: 64px;
+  }
+}
+/* LIMPEZA DE CAIXA D'AGUA*/
