@@ -71,3 +71,24 @@
   }
 }
 /* LIMPEZA DE CAIXA D'AGUA*/
+@media only screen and (max-width: 367px) {
+  /*HEADER*/
+  .menu-logo {
+    margin: 0 auto;
+  }
+  .nav-lista {
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .nav-lista li {
+    background: #03045e;
+    padding: 2px 4px;
+    border-radius: 10px;
+  }
+  .nav-lista a:hover {
+    color: white;
+  }
+}
